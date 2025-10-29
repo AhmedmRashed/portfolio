@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Optional: Use this to customize chunk size warnings or other build settings
+# See Netlify docs for more options: https://docs.netlify.com/configure-builds/file-based-configuration/

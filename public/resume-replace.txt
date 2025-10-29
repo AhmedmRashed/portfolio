@@ -1,0 +1,9 @@
+How to replace the placeholder resume.pdf
+
+1. Create or obtain your resume in PDF format (name it exactly `resume.pdf`).
+2. Copy the file into the `public/` folder of this project (replace the existing placeholder `resume.pdf`).
+3. Start or restart the dev server. The 'Download CV' button on the homepage will link to `/resume.pdf` and allow users to download or view it in the browser.
+
+Notes:
+- If you prefer a different filename, update the link in `src/components/Hero.tsx` accordingly.
+- For best results, use a reasonably sized PDF (under a few MB).
