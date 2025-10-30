@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 

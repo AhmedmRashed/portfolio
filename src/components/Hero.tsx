@@ -31,7 +31,7 @@ export function Hero() {
           className="space-y-6"
         >
           <motion.p 
-            className="text-lg md:text-xl text-muted-foreground"
+            className="text-lg md:text-xl font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
