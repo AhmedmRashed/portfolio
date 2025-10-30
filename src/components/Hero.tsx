@@ -31,12 +31,31 @@ export function Hero() {
           className="space-y-6"
         >
           <motion.p 
-            className="text-lg md:text-xl font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
+            className="text-lg md:text-xl font-semibold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent overflow-hidden"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ 
+              opacity: 1, 
+              y: 0,
+              transition: {
+                duration: 0.5,
+                ease: "easeOut"
+              }
+            }}
           >
-            Hi, I'm Ahmed Mohammed Rashed 👋
+            {["H", "i", ",", " ", "I", "'", "m", " ", "A", "h", "m", "e", "d", " ", "M", "o", "h", "a", "m", "m", "e", "d", " ", "R", "a", "s", "h", "e", "d", " ", "👋"].map((letter, index) => (
+              <motion.span
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  duration: 0.5,
+                  delay: 0.4 + index * 0.05,
+                  ease: "easeOut"
+                }}
+              >
+                {letter}
+              </motion.span>
+            ))}
           </motion.p>
           
           <motion.h1 
