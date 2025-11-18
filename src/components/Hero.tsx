@@ -75,7 +75,7 @@ export function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            Building data-driven web applications that connect maps and intelligence.
+            building modern, responsive, and data-driven web applications using React.js, Next.js, Tailwind CSS, and ASP.NET .
           </motion.p>
 
           <motion.div 
