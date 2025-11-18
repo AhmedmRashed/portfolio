@@ -64,7 +64,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            <span className="gradient-text">GIS Developer</span>
+            <span className="gradient-text">Web Designer</span>
             <br />
             <span className="text-foreground">& Junior Full Stack Developer</span>
           </motion.h1>
