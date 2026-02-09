@@ -132,6 +132,7 @@ export function Projects() {
                 </motion.div>
               ))}
               {/* Manually added project (external Netlify demo) */}
+              https://khairatelarab.netlify.app
               <motion.div
                 key="pharmcyrashedsystem"
                 initial={{ opacity: 0, y: 50 }}
@@ -177,6 +178,61 @@ export function Projects() {
                         asChild
                       >
                         <a href="https://pharmcyrashedsystem.netlify.app/" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Demo
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+            </div>
+          )}
+                <motion.div
+                key="webstore khairatelarab "
+                initial={{ opacity: 0, y: 50 }}
+                animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+                transition={{ duration: 0.6, delay: repos.length * 0.1 }}
+              >
+                <Card className="glass p-6 h-full flex flex-col hover-lift group">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-accent to-primary flex items-center justify-center">
+                      <ExternalLink className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="flex gap-3 text-sm text-muted-foreground">
+                      <div className="flex items-center gap-1">
+                        <Star className="w-4 h-4" />
+                        0
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <GitFork className="w-4 h-4" />
+                        0
+                      </div>
+                    </div>
+                  </div>
+
+                  <h3 className="text-xl font-semibold mb-2">
+                     khairatelarab 
+                  </h3>
+
+                  <p className="text-muted-foreground mb-4 flex-1 line-clamp-3">
+                    khairatelarab — deployed as a demo on Netlify.
+                  </p>
+
+                  <div className="space-y-4">
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="secondary">Netlify</Badge>
+                      <Badge variant="outline" className="text-xs">khairatelarab</Badge>
+                      <Badge variant="outline" className="text-xs">web</Badge>
+                    </div>
+
+                    <div className="flex gap-2">
+                      <Button 
+                        size="sm" 
+                        className="flex-1 bg-gradient-to-r from-accent to-primary hover:opacity-90 text-primary-foreground"
+                        asChild
+                      >
+                        <a href="https://khairatelarab.netlify.app/" target="_blank" rel="noopener noreferrer">
                           <ExternalLink className="w-4 h-4 mr-2" />
                           Demo
                         </a>
