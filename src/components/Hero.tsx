@@ -66,7 +66,7 @@ export function Hero() {
           >
             <span className="gradient-text">Web Designer</span>
             <br />
-            <span className="text-foreground">& Junior Full Stack Developer</span>
+            <span className="text-foreground">Junior Software Engineer</span>
           </motion.h1>
           
           <motion.p 
