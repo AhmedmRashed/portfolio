@@ -49,21 +49,23 @@ export function About() {
               className="space-y-6"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a Junior Full Stack Developer specializing in building modern, responsive, 
+               i'm Junior Software Engineer specializing in building modern, responsive, 
                 and data-driven web applications using <span className="text-accent font-semibold">React.js</span>, 
                 <span className="text-accent font-semibold"> Next.js</span>, 
                 <span className="text-accent font-semibold"> Tailwind CSS</span>, and 
                 <span className="text-accent font-semibold"> ASP.NET (C#)</span>.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I have experience in developing and integrating GIS-based web applications, 
-                managing spatial data with <span className="text-accent font-semibold">GeoServer</span> and 
-                <span className="text-accent font-semibold"> PostGIS</span>, and designing interactive 
-                mapping interfaces.
+                
+                Junior Software Engineer specializing in building modern, responsive, and scalable web applications using
+                <span className="text-accent font-semibold">React.js</span> , Next.js, Tailwind CSS, and <span className="text-accent font-semibold">ASP.NET (C#)</span>.
+Experienced in developing full-stack solutions, integrating RESTful APIs, and delivering high-performance, user-focused systems.
+
+Strong foundation in software engineering principles, clean architecture, and best practices.
+             
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Passionate about geospatial technology, I bridge the gap between data and 
-                visualization to create impactful solutions.
+                  Passionate about continuous learning and building efficient, maintainable, and impactful digital products
               </p>
 
               <Button 
